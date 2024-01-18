@@ -21,6 +21,7 @@ pipeline:
                   identifier: npminstall
                   name: npm_install
                   spec:
+                    shell: Sh
                     command: npm install
                   timeout: ""
                   type: Run
