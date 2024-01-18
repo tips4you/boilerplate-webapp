@@ -24,13 +24,6 @@ pipeline:
                     command: npm install
                   timeout: ""
                   type: Run
-              - step:
-                  type: Run
-                  name: Run_2
-                  identifier: Run_2
-                  spec:
-                    shell: Sh
-                    command: echo "Hey it's from run 2"
           platform:
             os: Linux
             arch: Amd64
