@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_tips4you_boilerplate_webapp_1706041257464-push-trigger-input-set
+  identifier: Build_tips4you_boilerplate_webapp_1706041257464pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_tips4you_boilerplate_webapp_1706041257464
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
