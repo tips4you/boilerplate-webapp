@@ -2,7 +2,7 @@ name: Push Main WF
 on:
   push:
     branches:
-      - main
+      - master
 
 jobs:
   my_custom_push_job:
